@@ -12,8 +12,6 @@ def create_file_paths(config):
     paths = {
         "vllm_input": os.path.join(dataset_dir, "vllm_input_path.json"),
         "vllm_output": os.path.join(dataset_dir, f"vllm_csv_output_{model_name}.csv"),
-        "pos_sim": os.path.join(dataset_dir, f"pos_sim_{model_name}.csv"),
-        "neg_sim": os.path.join(dataset_dir, f"neg_sim_{model_name}.csv"),
     }
 
     # Ensure output directory exists
