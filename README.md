@@ -25,7 +25,7 @@ Bin2SrcSim addresses two major challenges faced by existing BCSD approaches:
 1. The irreversible loss of semantic and structural information during binary code compilation
 2. The inability to directly perform similarity detection between binary code and source code
 
-Our framework employs a Large Language Model (LLM) to convert binary code into source code representations, significantly improving similarity detection performance across architectures, compilers, and optimization levels.
+Our framework employs a Large Language Model (LLM) to convert binary code into source code representations, improving similarity detection performance across architectures, compilers, and optimization levels.
 
 ![model](assets/framwork.jpg)
 
@@ -34,8 +34,6 @@ Our framework employs a Large Language Model (LLM) to convert binary code into s
 - **Source Code Transformation**: Fine-tuned LLM converts assembly code and pseudocode into high-quality source code
 - **Enhanced Semantic Recovery**: Supplements and enhances high-level semantic information lost during compilation
 - **Cross-Format Detection**: Enables similarity detection between binary code and source code
-- **High Performance**: Achieves superior Recall@1 and MRR metrics compared to state-of-the-art baselines
-- **IoT Firmware Security**: Practical application in vulnerable function search within actual IoT device firmware
 
 ## 🧪Prepare Environment
 
@@ -77,13 +75,4 @@ config = {
 
 ## 📝Citation
 
-If you find Bin2SrcSim helpful, please cite our paper:
-
-```bibtex
-@inproceedings{yourname2024bin2srcsim,
-  title     = {Bin2SrcSim: Binary to Source Code Conversion for Enhanced Similarity Detection Using Large Language Models},
-  author    = {Your Name and Co-authors},
-  booktitle = {Proceedings of Conference Name},
-  year      = {2025}
-}
-```
+If you find Bin2SrcSim helpful, please cite our paper.
