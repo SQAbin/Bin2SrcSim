@@ -13,6 +13,7 @@
   <a href="#key-features">✨Key Features</a> •
   <a href="#prepare-environment">🧪Environment</a> •
   <a href="#quick-start">🚀Quick Start</a> •
+  <a href="#prompt">Prompt</a> •
   <a href="#citation">📝Citation</a>
 </p>
 
@@ -53,7 +54,7 @@ We recommend using vLLM to launch the model for better multi-threading performan
 Use the following command to perform distributed inference with vLLM:
 
 ```bash
-python src/main.py
+python command.py
 ```
 
 The script uses a configuration dictionary that controls the distributed inference:
@@ -72,6 +73,11 @@ config = {
 }
 ```
 
+## Prompt
+
+The LLM prompts in our fine-tuning dataset, which is stored at data/Fine-Tuning.json, follow the format illustrated in the figure below.
+
+![prompt](assets/prompt.png)
 
 ## 📝Citation
 
