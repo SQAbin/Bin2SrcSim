@@ -1,0 +1,93 @@
+# 忽略所有目录下的 JSON 文件
+#**/*.json
+
+# 忽略 .idea 文件
+.idea/
+
+# 忽略所有目录下的 PKL 文件
+**/*.pkl
+
+# 忽略所有目录下的压缩包文件
+**/*.zip
+**/*.tar
+**/*.gz
+**/*.7z
+**/*.rar
+**/*.xz
+
+# 忽略日志文件
+**/*.log
+**/*.log.*
+
+# 忽略临时文件
+**/*.tmp
+**/*.swp
+**/*.bak
+**/*~
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 忽略 Python 虚拟环境目录
+venv/
+.env/
+
+# 忽略 Node.js 依赖
+node_modules/
+
+# 忽略编译输出
+**/dist/
+**/build/
+**/out/
+
+# 忽略 IDE 配置文件
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 忽略 Mac 系统自动生成的文件
+._*
+
+# 忽略 Linux 文件
+*~
+
+# 忽略覆盖文件
+*.cover
+*.coverage
+.coverage.*
+
+# 忽略 Jupyter Notebook 输出
+.ipynb_checkpoints/
+
+# 忽略特定的临时生成文件
+*.cache
+*.class
+*.war
+*.ear
+
+# 忽略常见文档编译文件
+*.aux
+*.toc
+*.idx
+*.log
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+
+# 忽略 IntelliJ IDEA 的其他配置
+*.iml
+*.ipr
+*.iws
+
+# 忽略 Office 文件
+**/*.doc
+**/*.docx
+**/*.xls
+**/*.xlsx
+**/*.ppt
+**/*.pptx
